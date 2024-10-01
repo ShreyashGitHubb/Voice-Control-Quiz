@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Voice-Controlled Quiz</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav class="navbar">
+        <h1>Voice-Controlled Quiz</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="system.html">System</a>
+        </div>
+    </nav>
+
+    <div class="quiz-container">
+        <h2 id="question">Press "Start Quiz" to begin!</h2>
+        <div class="choices">
+            <p id="choice-a"></p>
+            <p id="choice-b"></p>
+            <p id="choice-c"></p>
+            <p id="choice-d"></p>
+        </div>
+        <div class="feedback" id="feedback"></div>
+        <button id="start-quiz">Start Quiz</button>
+        
+        <!-- Mic control button -->
+        <button id="mic-button">Start Mic</button>
+        
+        <!-- User input display -->
+        <div id="user-input-display" class="user-input-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
